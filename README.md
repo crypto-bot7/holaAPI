@@ -28,12 +28,12 @@ Posts output has the following structure-
     "url": "https://example.org"
 }
 
-**Retrive single post-** GET <http://127.0.0.1:8000/api/posts/"post_id">
+**Retrieve single post-** GET <http://127.0.0.1:8000/api/posts/"post_id">
 
 **Vote for a Post-** POST <http://127.0.0.1:8000/api/posts/"post_id"/vote>
-No Body required
+Body not required
 
-**Delete a vote(unvote)-** DELETE <http://127.0.0.1:8000/api/posts/"post_id"/vote>
+**Delete a vote( remove vote)-** DELETE <http://127.0.0.1:8000/api/posts/"post_id"/vote>
 
 **Update a Post-** PUT/PATCH <http://127.0.0.1:8000/api/posts/"post_id">
 ### Body-
